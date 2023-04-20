@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    html {
+        font-family: "Lato", sans-serif;
+    }
+    .container {
+        height: 300px;
+        width: 300px;
+        border: 1px solid rgb(128, 180, 118);
+        border-radius: 5px;
+        margin: 10rem auto;
+        text-align: center;
+        background: linear-gradient(rgba(156, 156, 198, 0.286), rgba(74, 47, 47, 0.752)),
+        url('../images/1.jpg');
+        background-size: cover;
+
+    }
+    .container > input, .container button {
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .container button {
+        width: 5rem;
+        padding: 0.3rem;
+        color: aliceblue;
+        background-color: rgb(10, 87, 17);
+    }
+    .container h3 {
+        margin: 2rem;
+        color: aliceblue;
+        text-transform: capitalize;
+    }
+    .container p {
+        color: aliceblue;
+        font-size: 1.3rem;
+
+    }
+
